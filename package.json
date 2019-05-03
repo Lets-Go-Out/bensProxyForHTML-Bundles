@@ -1,0 +1,14 @@
+{
+  "name": "ec2-user",
+  "version": "1.0.0",
+  "description": "proxy for serving bundle files/html",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ben Poling",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
