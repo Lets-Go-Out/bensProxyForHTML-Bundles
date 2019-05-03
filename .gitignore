@@ -8,3 +8,8 @@ node_modules/
 .bash_profile
 .bashrc
 .config/
+.pm2/
+server/loader.txt
+.node-gyp/
+newrelic.js
+server/newrelic_agent.log
