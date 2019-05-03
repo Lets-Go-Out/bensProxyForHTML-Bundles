@@ -9,7 +9,6 @@ dotenv.config();
 const PORT = process.env.PORT || 3000;
 
 http.createServer((req,res) => {
-  console.log('hello')
   if(req.url === '/') {
     fs.readFile('/home/ec2-user/public/index.html', (err, page) => {
       if(err) {
